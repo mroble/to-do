@@ -1,3 +1,13 @@
+body {
+    font-family: Roboto;
+    background: #2BC0E4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
 h1 {
     background: #2980b9;
     color: white;
@@ -19,13 +29,7 @@ ul {
     padding: 0;
 }
 
-body {
-    font-family: Roboto;
-    background: #2BC0E4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-}
 
 li {
     background: #fff;
@@ -36,6 +40,12 @@ li {
 
 li:nth-child(2n){
     background: #f7f7f7;
+}
+
+li:hover span {
+    width: 40px;
+    opacity: 1.0;
+
 }
 
 span {
@@ -50,11 +60,6 @@ span {
     opacity: 0;
 }
 
-li:hover span {
-    width: 40px;
-    opacity: 1.0;
-
-}
 
 input {
     font-size: 18px;
